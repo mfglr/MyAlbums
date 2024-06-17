@@ -95,3 +95,33 @@
 ![Screenshot 2024-06-17 232612](https://github.com/mfglr/MyAlbums/assets/79373693/9a59079b-c7c1-4710-a000-60d822e1106f)
 
 <br/>
+
+## 1-3) Kullanıcı Oluşturma
+
+<br/>
+
+<p>
+  Kullanıcı oluşturmak için kullanıcılar sayfasında altta bulunan sabit siyah buton kullanılır. Bu butona tıklandığında bir form içeren modal açılacaktır.
+</p>
+
+<br/>
+
+![Screenshot 2024-06-17 233028](https://github.com/mfglr/MyAlbums/assets/79373693/f11ddcf8-d9c5-4044-ba2b-093d7264898a)
+
+<br/>
+
+![Screenshot 2024-06-18 014753](https://github.com/mfglr/MyAlbums/assets/79373693/3e32abf3-b3c6-4319-8ec1-b79123c40310)
+
+<br/>
+
+<p>
+  Bu formda isim, kullanıcı adı ve eamil alanlarının doldurulması zorunludur. Aynı zamanda email ile kullanıcı adı benzersiz olmalıdır. Bu şartlar sağlanmadığında kullanıcı oluşturulamayacak ve
+  kullanıcının oluşturulamadığını belirten bir bildiri ekranda gözükecektir.
+</p>
+
+<br/>
+
+![Screenshot 2024-06-18 015336](https://github.com/mfglr/MyAlbums/assets/79373693/5636da75-d9eb-47bc-8d0a-c0bc1824eab9)
+
+<br/>
+
