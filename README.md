@@ -125,3 +125,22 @@
 
 <br/>
 
+![Screenshot 2024-06-18 020118](https://github.com/mfglr/MyAlbums/assets/79373693/1e28e7a0-aa44-4a86-acf3-0d1fde269a2c)
+
+<br/>
+
+<p>
+  Kullanıcı başarılı bir şekilde oluştuğunda kullanıcının sayfasına yönlendirilecek ve kullanıcının başarıyla oluştuğuna dair bir bildiri alınacaktır.
+</p>
+
+<br/>
+
+![Screenshot 2024-06-18 020431](https://github.com/mfglr/MyAlbums/assets/79373693/b32c5694-d745-4db3-b105-7b931b69351f)
+
+<br/>
+
+![Screenshot 2024-06-18 021300](https://github.com/mfglr/MyAlbums/assets/79373693/e93dca1f-10df-4b49-a2b8-c90d5f87a564)
+
+<br/>
+
+![Screenshot 2024-06-18 021347](https://github.com/mfglr/MyAlbums/assets/79373693/2b53ab89-99b7-471e-b5ba-f3932a8dea12)
