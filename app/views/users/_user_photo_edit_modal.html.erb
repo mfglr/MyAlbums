@@ -11,7 +11,7 @@
                     <%= form.file_field :photo, class:"form-control mb-2", id:"file_input" %>
                     <%= form.submit value: "Fotağrafı Güncelle", class:"btn btn-primary btn-sm w-100 disabled", id:"button" %>
                 <% end %>
-                <% if has_photo?(user) %>
+                <% if user.has_photo? %>
                     <button class="btn btn-outline-danger btn-sm w-100" data-bs-toggle="modal" data-bs-target="#user_photo_remove_modal_<%=user.id%>">
                         Sil
                         <i class="bi bi-trash3-fill"></i>

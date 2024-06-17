@@ -6,8 +6,4 @@ module UsersHelper
                 user.profile_photo_url :
                 "/assets/no_image.png" 
     end
-
-    def has_photo?(user)
-        user.photo.attached? || user.profile_photo_url.present?
-    end
 end

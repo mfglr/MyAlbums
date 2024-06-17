@@ -53,11 +53,13 @@ class User < ApplicationRecord
         Company.new(self.company_name, self.company_catch_phrase, self.company_bs)
     end
 
+    def has_photo?
+        self.photo.attached? || self.profile_photo_url.present?
+    end
 
     def delete_photo
         self.photo.purge
         self.profile_photo_url = nil
         self.save
     end
-
 end
