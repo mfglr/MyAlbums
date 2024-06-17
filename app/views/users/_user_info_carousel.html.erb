@@ -1,0 +1,163 @@
+<div id="user_info_<%=user.id%>" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#user_info_<%=user.id%>" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#user_info_<%=user.id%>" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#user_info_<%=user.id%>" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner" style="font-size:0.8rem">
+    <div class="carousel-item active">
+        <div class="d-flex justify-content-center text-center">
+            <h3>
+                <i class="bi bi-at"></i>
+                İletişim Bilgileri
+            <h3>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <i class="bi bi-envelope"></i>
+                Email
+            </label>
+            <span><%= user.email.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <i class="bi bi-telephone"></i>
+                Telefon
+            </label>
+            <span><%= user.phone.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <i class="bi bi-globe"></i>
+                Website
+            </label>
+            <% if user.website.presence %>
+                <a href="https://<%=user.website%>"><%= user.website %></a>
+            <% else %>
+                <span>-<span>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="d-flex justify-content-center text-center">
+            <h3>
+                <i class="bi bi-pin-map"></i>
+                Address Bilgileri
+            <h3>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <i class="bi bi-building"></i>
+                Şehir
+            </label>
+            <span><%= user.address_city.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex">
+        <div class="d-flex flex-column me-3">
+            <label class="fw-bold">
+                <i class="bi bi-signpost-2"></i>
+                Cadde-Sokak
+            </label>
+            <span><%= user.address_street.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <i class="bi bi-building-check"></i>
+                Apartman
+            </label>
+            <span><%= user.address_suite.presence || "-" %></span>
+        </div>
+        </div>
+        <hr/>
+
+        <div class="d-flex">
+        <div class="d-flex flex-column me-3">
+            <label class="fw-bold">
+                <i class="bi bi-mailbox"></i>
+                Posta Kodu
+            </label>
+            <span><%= user.address_zipcode.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <i class="bi bi-crosshair"></i>
+                Enlem-Boylam
+            </label>
+            <div class="d-flex">
+                <span class="me-2">Enlem : <%= user.address_geo_lat.presence || "-" %></span>
+                <span>Boylam : <%= user.address_geo_lng.presence || "-" %></span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="d-flex justify-content-center text-center">
+            <h3>
+                <i class="bi bi-buildings"></i>
+                Şirket Bilgileri
+            <h3>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column">
+            <label class="fw-bold">
+                <svg width="16" height="16" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" stroke="black" stroke-width="5" fill="lightgrey" />
+                    <text x="50%" y="50%" text-anchor="middle" stroke="black" stroke-width="1px" dy=".3em" font-family="Arial" font-size="12">name</text>
+                </svg>
+                İsim
+            </label>
+            <span><%= user.company_name.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column me-3">
+            <label class="fw-bold">
+                <svg width="16" height="16" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" stroke="black" stroke-width="5" fill="lightblue" />
+                    <path d="M50 15
+                            C44 15, 40 25, 50 30
+                            C60 25, 56 15, 50 15
+                            M50 30
+                            L50 60
+                            M45 60
+                            L55 60
+                            M45 65
+                            L55 65
+                            M45 70
+                            L55 70" stroke="black" stroke-width="2" fill="none"/>
+                    <text x="50%" y="90%" text-anchor="middle" stroke="black" stroke-width="1px" dy=".3em" font-family="Arial" font-size="10">Innovate Your World</text>
+                </svg>
+                Slogan
+            </label>
+            <span><%= user.company_catch_phrase.presence || "-" %></span>
+        </div>
+        <hr/>
+
+        <div class="d-flex flex-column me-3">
+            <label class="fw-bold">
+                <i class="bi bi-bullseye"></i>
+                İş Stratejisi
+            </label>
+            <span><%= user.company_bs.presence || "-" %></span>
+        </div>
+    </div>
+    </div>
+</div>

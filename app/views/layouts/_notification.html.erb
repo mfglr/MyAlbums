@@ -1,0 +1,29 @@
+<div class="fixed-bottom" id="notification-container" >
+    <div class="container mb-5 position-relative" style="opacity:0.9">
+        <% if notice.present? %>
+            <div class="bg-success text-center p-2 mb-2">
+                <span><%= notice %></span>
+            </div>
+            <div class="position-absolute" style="right:20px;top:8px;cursor:pointer;" id="notificationCloseButton">
+                <i class="bi bi-x-circle"></i>
+            </div>
+        <% end %>
+
+        <% if alert.present? %>
+            <div class="bg-danger text-center p-2 mb-2">
+                <span><%= alert %></span>
+            </div>
+            <div class="position-absolute" style="right:20px;top:8px;cursor:pointer;" id="notificationCloseButton">
+                <i class="bi bi-x-circle"></i>
+            </div>
+        <% end %>
+    </div>
+</div>
+
+<script>
+    var notificationContainer = document.getElementById("notification-container")
+    setTimeout(() => notificationContainer.remove(),3000)
+    var closeButton = document.getElementById("notificationCloseButton");
+    if(closeButton)
+        closeButton.addEventListener("click",() => notificationContainer.remove())
+</script>
