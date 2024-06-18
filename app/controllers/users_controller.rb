@@ -13,7 +13,7 @@ class UsersController < ApplicationController
         if @user.save
             redirect_to @user, notice: "Kullanıcı başarılı bir şekilde oluşturuldu."
         else
-            redirect_to root_path, alert: "Kullanıcı oluşturulamadı! Lütfen tekrar deneyin : #{format_error_messages(@user)}"
+            redirect_to root_path, alert: "Kullanıcı oluşturulamadı! Lütfen tekrar deneyin : #{@user.format_error_messages}"
         end
     end
 
@@ -21,7 +21,7 @@ class UsersController < ApplicationController
         if @user.update(user_params)
             redirect_to @user, notice: "Kullanıcı başarılı bir şekilde güncellendi."
         else
-            redirect_to @user, alert: "Kullanıcı güncellenemedi! Lütfen tekrar deneyin : #{format_error_messages(@user)}" 
+            redirect_to @user, alert: "Kullanıcı güncellenemedi! Lütfen tekrar deneyin : #{@user.format_error_messages}" 
         end
     end
 
@@ -79,9 +79,4 @@ class UsersController < ApplicationController
                     :photo
                 )
         end
-
-        def format_error_messages(user)
-            user.errors.map{ |error| error.message }.join(' ')
-        end
-
 end

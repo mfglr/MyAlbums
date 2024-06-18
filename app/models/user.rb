@@ -62,4 +62,8 @@ class User < ApplicationRecord
         self.profile_photo_url = nil
         self.save
     end
+
+    def format_error_messages
+        self.errors.map{ |error| error.message }.join(' ')
+    end
 end
