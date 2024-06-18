@@ -47,9 +47,17 @@
 ![Screenshot 2024-06-17 225649](https://github.com/mfglr/MyAlbums/assets/79373693/74cfffa0-cbda-4714-901d-db60d5b9dca7)
 
 <br/>
-<br/>
 
-## 2-2) Kullanıcı Aranma
+## 2-2) Kullanıcılar Sayfası
+<br/>
+  
+<p>
+  
+</p>
+  Kullanıcılar sayfasında, kullanıcılar listelenir; kullanıcı aranır ve kullanıcı oluşturulabilir.
+<br/>
+  
+### 2-2-1) Kullanıcı Arama
 
 <br/>
 
@@ -88,7 +96,7 @@
 <br/>
 
 <p>
-  Arama kutusundaki karakterleri silmek için klavyenin ve arama kutusundaki "x" ikonu kullanılabilir. Arama kutunda bir karakter kalmazsa bu ikon tekrar karakter girilinceye kadar kaybolacaktır ve
+  Arama kutusundaki karakterleri silmek için klavye ya da arama kutusundaki "x" ikonu kullanılabilir. Arama kutunda bir karakter kalmazsa bu ikon tekrar karakter girilinceye kadar kaybolacaktır ve
   tüm kullanıcılar yeniden listelenecektir.
 </p>
 
@@ -108,7 +116,7 @@
 
 <br/>
 
-## 2-3) Kullanıcı Oluşturma
+### 2-2-2) Kullanıcı Oluşturma
 
 <br/>
 
@@ -156,3 +164,52 @@
 <br/>
 
 ![Screenshot 2024-06-18 021347](https://github.com/mfglr/MyAlbums/assets/79373693/2b53ab89-99b7-471e-b5ba-f3932a8dea12)
+
+<br/>
+
+### 2-2-3) Kullanıcılar Sayfasından Bir Kullanıcının Sayfasına Gitmek 
+
+<br/>
+
+<p>
+  Kullanıcılar sayfasından bir kullanıcının sayfasına uaşmak için kullanıcının özet bilgilerinin gösterildiği kartın sağındaki ikona tıklanmalıdır.
+</p>
+
+<br/>
+
+![Screenshot 2024-06-18 120329](https://github.com/mfglr/MyAlbums/assets/79373693/29467234-93e5-4908-ba36-bb29edbeea6a)
+
+<br/>
+
+## 2-3) Kullanıcı Sayfası
+
+<br/>
+
+<p>
+  Kullanıcı sayfasında kullanıcının detay bilgileri ve kullanıcıya ait albümlerin özetleri listelenir, kullanıcı bilgileri düzenlenebilir veya kullanıcı silinebilir. Albümlerin detayları görüntülenebilir.
+</p>
+
+<br/>
+
+![Screenshot 2024-06-18 122734](https://github.com/mfglr/MyAlbums/assets/79373693/44fd6077-3ec4-4e0e-a40c-bff83188c156)
+
+<br/>
+
+### 2-3-1) Kullanıcı Fotoğrafını Düzenleme
+
+<br/>
+
+<p>
+  Kullanıcı fotoğrafını düzenleyebilmek için kullanıcı bilgileri kısmında bulunan kullanıcı fotoğrafının üzerindeki kamera ikonuna tıklanmalıdır. Bu ikona tıklandıktan sonra bir modal açılacaktır.
+</p>
+
+<br/>
+
+![Screenshot 2024-06-18 123218](https://github.com/mfglr/MyAlbums/assets/79373693/89ef41bf-1071-41c9-a9cf-83b9dd3ac824)
+
+<br/>
+
+![Screenshot 2024-06-18 123302](https://github.com/mfglr/MyAlbums/assets/79373693/c929a728-aa0f-4f8a-8b90-a592fc78de1b)
+
+<br/>
+
