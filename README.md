@@ -246,5 +246,40 @@
 
 ![Ekran görüntüsü 2024-06-18 125557](https://github.com/mfglr/MyAlbums/assets/79373693/652eb069-03d2-4da2-ad12-5a0058f70aed)
 
+<br/>
+
+### 2-3-2) Kullanıcı Bilgilerini Düzenleme
 
 <br/>
+
+<p>
+  Kullanıcı bilgilerini düzenlemek için kullanıcı kartında yer alan düzenle butonuna tıklanmalıdır. Bu butona tıklanınca kullanıcı bilgilerinin düzenlenebileceği bir modal açılacaktır.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 133007](https://github.com/mfglr/MyAlbums/assets/79373693/9c9ef8ed-6e84-4fab-ac7d-6f13ba516055)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 133315](https://github.com/mfglr/MyAlbums/assets/79373693/967f8e9e-5c55-4569-ba9f-a07754146921)
+
+<br/>
+
+<p>
+  Kullanıcı oluştumak için gerekli koşullar kullanıcıyı güncellemek için de gereklidir. Kullanıcı adı ve email alanlarının doldurulması zorunludur. Aynı zamanda email ile kullanıcı adı benzersiz olmalıdır.
+  Bu şartlar sağlanmazsa kullanıcı güncellenemeyecektir. Eğer kullanıcı başarılı bir şekilde güncellenirse kullanıcının başarılı bir şekilde güncellendiğine dair bir bildirim oluşacaktır.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 133723](https://github.com/mfglr/MyAlbums/assets/79373693/752c39b9-e31b-465a-9575-a9f17aa6895f)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 133935](https://github.com/mfglr/MyAlbums/assets/79373693/26a03a36-b185-49a3-b11d-925e8556421f)
+
+<br/>
+
+
+
