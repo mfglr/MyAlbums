@@ -1,14 +1,26 @@
-# 1) Uygulama Nasıl Kullanılır?
-<br/>
+# 1) Repoyu Klonladıktan Sonra...!
+
+<p>
+  Repoyu local bilgisayarınıza klonladıktan sonra node modülleri indirmek için proje dizininde aşağıdaki satırları çalıştırın!
+</p>
+
+<code>
+  yarn install
+  rails assets:precompile
+</code>
+
 <br/>
 
-## 1-1) Verilerin "JsonPlaceholder" dan İndirilmesi
+# 2) Uygulama Nasıl Kullanılır?
+<br/>
+
+## 2-1) Verilerin "JsonPlaceholder" dan İndirilmesi
 
 <br/>
 
 <p>
-  Uygulama ilk çalıştırıldığında verilerin indirilebilmesi için bir button gösterilecektir. Bu butuna tıkladığında "https://jsonplaceholder.typicode.com" sitesinden kullanıcı, albüm ve fotoğraf url' leri
-  indirilip veri tabanına kaydedilecektir. Bu işlem internet gerektirir ve internet hızına bağlı olarak <strong>30 saniye kadar sürebilir</strong>. Bu süreç tek seferliktir.
+  Uygulama ilk çalıştırıldığında verilerin indirilebilmesi için bir button gösterilecektir. Bu butuna tıkladığında "https://jsonplaceholder.typicode.com" sitesinden kullanıcılar, albümler ve fotoğraf url' leri
+  indirilip veri tabanına kaydedilecektir. Bu işlem internet bağlantısı gerektirir ve internet hızına bağlı olarak <strong>30 saniye kadar sürebilir</strong>. Bu süreç tek seferliktir.
 </p>
 
 <br/>
@@ -37,7 +49,7 @@
 <br/>
 <br/>
 
-## 1-2) Kullanıcıların Aranması
+## 2-2) Kullanıcı Aranma
 
 <br/>
 
@@ -76,7 +88,7 @@
 <br/>
 
 <p>
-  Arama kutusundaki karakterleri silmek için klavyenin yanında arama kutusundaki "x" ikonu kullanılabilir. Arama kutunda bir karakter kalmazsa bu ikon tekrar karakter girilinceye kadar kaybolacaktır ve
+  Arama kutusundaki karakterleri silmek için klavyenin ve arama kutusundaki "x" ikonu kullanılabilir. Arama kutunda bir karakter kalmazsa bu ikon tekrar karakter girilinceye kadar kaybolacaktır ve
   tüm kullanıcılar yeniden listelenecektir.
 </p>
 
@@ -96,7 +108,7 @@
 
 <br/>
 
-## 1-3) Kullanıcı Oluşturma
+## 2-3) Kullanıcı Oluşturma
 
 <br/>
 
@@ -115,7 +127,7 @@
 <br/>
 
 <p>
-  Bu formda isim, kullanıcı adı ve eamil alanlarının doldurulması zorunludur. Aynı zamanda email ile kullanıcı adı benzersiz olmalıdır. Bu şartlar sağlanmadığında kullanıcı oluşturulamayacak ve
+  Bu formda isim, kullanıcı adı ve email alanlarının doldurulması zorunludur. Aynı zamanda email ile kullanıcı adı benzersiz olmalıdır. Bu şartlar sağlanmadığında kullanıcı oluşturulamayacak ve
   kullanıcının oluşturulamadığını belirten bir bildiri ekranda gözükecektir.
 </p>
 
@@ -130,7 +142,7 @@
 <br/>
 
 <p>
-  Kullanıcı başarılı bir şekilde oluştuğunda kullanıcının sayfasına yönlendirilecek ve kullanıcının başarıyla oluştuğuna dair bir bildiri alınacaktır.
+  Kullanıcı başarılı bir şekilde oluştuğunda kullanıcının sayfasına yönlendirilecek ve kullanıcının başarıyla oluştuğuna dair bir bildiri gösterilecektir.
 </p>
 
 <br/>
