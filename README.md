@@ -209,7 +209,42 @@
 
 <br/>
 
-![Screenshot 2024-06-18 123302](https://github.com/mfglr/MyAlbums/assets/79373693/c929a728-aa0f-4f8a-8b90-a592fc78de1b)
+![Ekran görüntüsü 2024-06-18 124209](https://github.com/mfglr/MyAlbums/assets/79373693/c4484da3-b536-463f-b903-26bc11dd0829)
 
 <br/>
 
+<p>
+  Fotoğrafı güncellemek için bir resim seçilmeli aksi halde "Fotağrafı Güncelle" butonu aktif hale gelmeyecektir. Fotoğraf başarılı bir şekilde güncellendikten sonra ekranda
+  bildirim gösterilecektir.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 124722](https://github.com/mfglr/MyAlbums/assets/79373693/ad0b15a5-e864-41a5-91de-e59bd1d9757b)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 124837](https://github.com/mfglr/MyAlbums/assets/79373693/c875826c-45ec-43ee-9ea1-c816b0e13018)
+
+<br/>
+
+<p>
+  Fotoğrafı silmek için aynı modaldaki sil butonu kullanılmalıdır. Bu butona tıkladıktan sonra kullanıcının onayını olmak için farklı bir modal açılacaktır.
+  Eğer kullanıcı silme işlemini onaylarsa Fotoğraf silinecek ve kullanıcıya varsayılan profil fotoğrafı atanacaktır. İptal ederse fotoğraf silinmeyecektir.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 125413](https://github.com/mfglr/MyAlbums/assets/79373693/f31afc0b-ddc8-49a7-a115-bd99af83bb15)
+
+<br/>
+
+
+![Ekran görüntüsü 2024-06-18 125501](https://github.com/mfglr/MyAlbums/assets/79373693/cf657539-c3a7-45aa-bf51-50ec58dbfc69)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 125557](https://github.com/mfglr/MyAlbums/assets/79373693/652eb069-03d2-4da2-ad12-5a0058f70aed)
+
+
+<br/>
