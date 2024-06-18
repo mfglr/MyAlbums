@@ -1,7 +1,7 @@
 # 1) Repoyu Klonladıktan Sonra...!
 
 <p>
-  Repoyu local bilgisayarınıza klonladıktan sonra node modülleri indirmek için proje dizininde aşağıdaki satırları çalıştırın!
+  Repoyu local bilgisayarınıza klonladıktan sonra node modüllerini indirmek ve veritabanını oluşturmak için proje dizininde aşağıdaki satırları çalıştırın!
 </p>
 
 <code>
