@@ -22,12 +22,16 @@
 
 <p>
   Uygulama ilk çalıştırıldığında verilerin indirilebilmesi için bir button gösterilecektir. Bu butuna tıkladığında "https://jsonplaceholder.typicode.com" sitesinden kullanıcılar, albümler ve fotoğraf url' leri
-  indirilip veri tabanına kaydedilecektir. Bu işlem internet bağlantısı gerektirir ve internet hızına bağlı olarak <strong>30 saniye kadar sürebilir</strong>. Bu süreç tek seferliktir.
+  indirilip veri tabanına kaydedilecektir. Bu işlem internet bağlantısı gerektirir ve internet hızına bağlı olarak <strong>30 saniye kadar sürebilir</strong>.Bu istek web socket ile yapıldığından uygulama bloklanmaz. İşlem başladıktan sonra dilenirse uygulama kapatılabilir. İndirme işlemi tamamlandığında veriler otamatik olarak sayfada yüklenecektir.Bu süreç tek seferliktir.
+</p>
+
+<p>
+  Dilenirse bu veriler indirilmeden de uygulama kullanılabilir. Ancak albüm ekleme özelliği olmadığı için ancak kullanıcı ekleme ve düzenleme özelliği olacaktır.
 </p>
 
 <br/>
 
-![Screenshot 2024-06-17 224911](https://github.com/mfglr/MyAlbums/assets/79373693/2d61ae1e-3cee-45f3-8edb-81af24ec0773)
+![Ekran görüntüsü 2024-06-19 004923](https://github.com/mfglr/MyAlbums/assets/79373693/1e3cf0ee-165f-404d-a7bf-b9238b0d7de0)
 
 <br/>
 
@@ -38,7 +42,7 @@
 
 <br/>
 
-![Screenshot 2024-06-17 225754](https://github.com/mfglr/MyAlbums/assets/79373693/ba19e183-4637-4d55-9efd-64f6a75f185c)
+![Ekran görüntüsü 2024-06-19 010405](https://github.com/mfglr/MyAlbums/assets/79373693/adde8872-6d23-47bc-821c-7f4a4edafe2d)
 
 <br/>
 
