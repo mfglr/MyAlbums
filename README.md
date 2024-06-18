@@ -55,6 +55,7 @@
   
 </p>
   Kullanıcılar sayfasında, kullanıcılar listelenir; kullanıcı aranır ve kullanıcı oluşturulabilir.
+  
 <br/>
   
 ### 2-2-1) Kullanıcı Arama
@@ -229,8 +230,8 @@
 <br/>
 
 <p>
-  Fotoğrafı silmek için aynı modaldaki sil butonu kullanılmalıdır. Bu butona tıkladıktan sonra kullanıcının onayını olmak için farklı bir modal açılacaktır.
-  Eğer kullanıcı silme işlemini onaylarsa Fotoğraf silinecek ve kullanıcıya varsayılan profil fotoğrafı atanacaktır. İptal ederse fotoğraf silinmeyecektir.
+  Fotoğrafı silmek için aynı modaldaki sil butonu kullanılmalıdır. Bu butona tıkladıktan sonra kullanıcının onayını almak için farklı bir modal açılacaktır.
+  Eğer kullanıcı silme işlemini onaylarsa fotoğraf silinecek ve kullanıcıya varsayılan profil fotoğrafı atanacaktır. İptal ederse fotoğraf silinmeyecektir.
 </p>
 
 <br/>
@@ -325,3 +326,23 @@
 ![Ekran görüntüsü 2024-06-18 135853](https://github.com/mfglr/MyAlbums/assets/79373693/c9e55edf-b0b3-4989-a9bc-e9b11a07ce4b)
 
 <br/>
+
+### 2-3-5) Albüm Detaylarını Görüntülemek
+
+<br/>
+
+<p>
+  Albüm detaylarını görüntüleyebilmek için albüm kartındaki göz ikonuna tıklanmalıdır. Bu ikona tıklandıktan sonra albümün başlığını, fotoğraflarını ve fotoğraf başlıklarını içeren bir modal açılacaktır.
+  Diğer fotoğrafları görüntülemek için fotoğrafların sağında ve solunda bulunan oklar kullanılır.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 141041](https://github.com/mfglr/MyAlbums/assets/79373693/2bc54267-07bb-4f95-aae8-71bcb1f5af71)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 141153](https://github.com/mfglr/MyAlbums/assets/79373693/748e8454-f2d6-4ff9-bab2-007c7e3bf990)
+
+<br/>
+
