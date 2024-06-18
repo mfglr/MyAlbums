@@ -1,16 +1,17 @@
 <div class="row">
     <div class="offset-md-3 col-md-6 offset-lg-4 col-lg-4">
-        <div id="template">
+        <div id="load-data-container">
             <h6 class="text-center">
                 Uygulamayı ilk defa mı çalıştırıyorsunuz?
                 Verileri yülemek için aşağıdaki butana tıklayınız.
             </h6>
-            <%= button_to load_data_path, class: "btn btn-outline-primary w-100",id: "button" do %>
+
+            <button class="btn btn-outline-primary w-100" id="button">
                 <span>Verileri Yükle</span>
                 <i class="bi bi-cloud-download"></i>
-            <% end %>
+            </button>
         </div>
-        <div id="loading-template" class="text-center" style="display:none">
+        <div id="loading-data-container" class="text-center" style="display:none">
             <h6>Veriler Yükleniyor...</h6>
             <div class="spinner-border text-dark" role="status">
                 <span class="sr-only"></span>
@@ -19,12 +20,20 @@
     </div>
 </div>
 
-<script>
+<script type="module">
+
+    import dataChannel from "channels/data_channel"
+
     var button = document.getElementById("button")
-    var template = document.getElementById("template")
-    var loadingTemplate = document.getElementById("loading-template")
+    var template = document.getElementById("load-data-container")
+    var loadingTemplate = document.getElementById("loading-data-container")
     button.addEventListener("click",() => {
         template.style.display = "none"
         loadingTemplate.style.display = "block"
     })
+
+    document.getElementById("button").addEventListener("click",() =>{
+        dataChannel.load()
+    })
+
 </script>
