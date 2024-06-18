@@ -281,5 +281,26 @@
 
 <br/>
 
+### 2-3-3) Kullanıcıyı Silmek
+
+<br/>
+
+<p>
+  Kullanıcı silmek için kullanıcı kartındaki sil butonuna tıklanmalıdır. Bu butona tıklandığında onay alınması için bir modal açılacaktır. Eğer silme işlemi onaylanırsa kullanıcı silinecek ve
+  kullanıcılar sayfası görüntülenecektir.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 134450](https://github.com/mfglr/MyAlbums/assets/79373693/f5e0ad41-8040-45eb-9fbe-168ae818382c)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 134751](https://github.com/mfglr/MyAlbums/assets/79373693/c62a6e19-eca5-49ff-be19-416cbe3e2d4e)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 134855](https://github.com/mfglr/MyAlbums/assets/79373693/e42fe34e-ecd4-4b01-9f6e-48333753ce60)
+
 
 
