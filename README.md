@@ -346,4 +346,39 @@
 
 <br/>
 
+# 3) Uygulamanın Farklı Çözünürlüklerdeki Ekran Görüntüleri
 
+<br/>
+
+![Ekran görüntüsü 2024-06-18 143459](https://github.com/mfglr/MyAlbums/assets/79373693/a719ad06-7d5f-4cff-bbcd-0b997a1da22b)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 143523](https://github.com/mfglr/MyAlbums/assets/79373693/5c413473-a763-40dd-ad07-51558f304293)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 143541](https://github.com/mfglr/MyAlbums/assets/79373693/f0a8cd14-0ec4-4b9f-9999-a006ff241c13)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 143558](https://github.com/mfglr/MyAlbums/assets/79373693/76cdd138-608f-4f2b-801c-8ce6225db53b)
+
+<br/>
+
+
+![Ekran görüntüsü 2024-06-18 143617](https://github.com/mfglr/MyAlbums/assets/79373693/c1003bc3-8084-4b7d-9de6-6b2b69af8954)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 143638](https://github.com/mfglr/MyAlbums/assets/79373693/dcdce358-d2c6-4ff8-b233-aa842bd4f10f)
+
+<br/>
+
+
+![Ekran görüntüsü 2024-06-18 143654](https://github.com/mfglr/MyAlbums/assets/79373693/a6121569-5ceb-4693-abef-be1b7099bfe7)
+
+<br/>
+
+
+![Ekran görüntüsü 2024-06-18 143707](https://github.com/mfglr/MyAlbums/assets/79373693/4a7e5a3d-e68c-473e-883e-ccf7c9bdd105)
