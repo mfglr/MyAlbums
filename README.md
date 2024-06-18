@@ -302,5 +302,26 @@
 
 ![Ekran görüntüsü 2024-06-18 134855](https://github.com/mfglr/MyAlbums/assets/79373693/e42fe34e-ecd4-4b01-9f6e-48333753ce60)
 
+<br/>
 
+### 2-3-4) Kullanıcı Bilgilerini Görüntülemek
 
+<br/>
+
+<p>
+  Kullanıcı bilgilerini görüntülemek için kullanıcı kartındaki slaytbar kullanılır. Bu bar otomatik değişir ama barın altındaki butonlar kullanılarakta istenilen slide a ulaşılabilir.
+</p>
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 135712](https://github.com/mfglr/MyAlbums/assets/79373693/378790e8-7f6e-419f-8054-c5d551b67cbd)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 135810](https://github.com/mfglr/MyAlbums/assets/79373693/4ce836f6-dbaf-41b9-84e1-3c4262b2580f)
+
+<br/>
+
+![Ekran görüntüsü 2024-06-18 135853](https://github.com/mfglr/MyAlbums/assets/79373693/c9e55edf-b0b3-4989-a9bc-e9b11a07ce4b)
+
+<br/>
