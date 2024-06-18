@@ -19,7 +19,8 @@ class DataChannel < ApplicationCable::Channel
       rescue
         app_state.not_ready!
       end
-      turbo_stream.update "DataChannel", 
+      
+      Turbo::StreamsChannel.broadcast_update_to "DataChannel", 
         target: "content",
         partial: "users/users_with_state",
         locals: { users: User.all, state: app_state }
