@@ -7,6 +7,8 @@
 <code>
   yarn install
   rails assets:precompile
+  rails db:create
+  rails db:migrate
 </code>
 
 <br/>
